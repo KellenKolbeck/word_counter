@@ -1,6 +1,7 @@
 class String
   define_method(:word_counter) do
-    input_word = self
-    self
+    user_input = self.split(" ")
+    word_count = user_input.count()
+
   end
 end
