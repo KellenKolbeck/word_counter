@@ -1,7 +1,6 @@
 class String
-  define_method(:word_counter) do |user_word|
+  define_method(:word_counter) do
     input_word = self
-    input_word = user_word
-
+    self
   end
 end
