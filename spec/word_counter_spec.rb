@@ -7,6 +7,6 @@ describe('String#word_counter') do
   end
 
 #  it("Counts the number of each word appears in the string") do
-#    expect(("the dog is a big dog").word_counter()).to(eq(2))
+  #  expect(("the dog is a big dog").word_counter()).to(eq())
 #  end
 end
